@@ -1,0 +1,330 @@
+@font-face {
+  font-family: 'airbnb cereal app';
+  src: url(../fonts/AirbnbCereal_W_Bd.otf);
+}
+
+body {
+  color: #828297;
+  font-family: 'airbnb cereal app', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+/* General Styles */
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+h1, h2, h3, h4 {
+  color: #060640;
+}
+
+p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-brand img {
+  max-width: 100px;
+  height: auto;
+}
+
+.navbar-nav {
+  font-weight: 400;
+  font-size: 16px;
+  color: #717171;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  background-color: white;
+}
+
+.header span, .footer-end span {
+  color: lightskyblue;
+}
+
+.social-icon span:hover {
+  transition: 1s;
+  color: rgb(46, 167, 160);
+}
+
+.nav-item {
+  padding-right: 10px;
+  color: #18191f;
+}
+
+.btn-1 {
+  margin-right: 30px;
+  color: #000000;
+  border: none;
+  background: none;
+}
+
+.bg {
+  background: #fff;
+  border-radius: 8px;
+}
+
+.banner span,
+.our-works span,
+.About-us span,
+.global span {
+  position: relative;
+}
+
+.banner span img {
+  position: absolute;
+  right: 28px;
+  top: -4px;
+}
+
+/* Buttons */
+.btn, .register-button {
+  display: inline-block;
+  border: 1px solid #060640;
+  border-radius: 5px;
+  padding: 14px 40px;
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  background: #060640;
+  color: white;
+}
+
+.register-button {
+  border-radius: 6px;
+  padding: 16px 36px;
+}
+
+/* Banner */
+header, .banner, .popular-package {
+  background-image: url(../images/Header.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner2 img {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Cards & Boxes */
+.card, .box {
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0px 0px 50px 0px #e4e4ee;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.card p {
+  color: #828297;
+  font-size: 14px;
+}
+
+.box img, .after img {
+  background: #ecf9ff;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+/* Newsletter */
+.newsletter {
+  padding: 50px 20px;
+  background-image: url(../images/Header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  position: relative;
+}
+
+.newsletter .container {
+  padding: 20px;
+}
+
+.newsletter input {
+  padding: 25px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.newsletter .btn {
+  width: 100%;
+  margin-top: 10px;
+  position: static;
+}
+
+/* CV Section */
+.cv-img, .cv-btn {
+  text-align: center;
+  padding: 20px;
+}
+
+.cv-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Cvv {
+  background-color: #203e91;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.Cvv:hover {
+  background-color: #262a86;
+}
+
+.Cvv a {
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-image: url(../images/Header.jpg);
+  padding: 50px 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+footer img {
+  max-width: 190px;
+  height: auto;
+}
+
+footer h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2d16af;
+}
+
+footer p,
+footer li {
+  font-size: 13px;
+  color: #212131;
+  line-height: 32px;
+}
+
+footer .social-icon {
+  padding-top: 18px;
+}
+
+footer .social-icon a {
+  border: 1px solid #212131;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  padding: 8px;
+  color: #212131;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-end {
+  background-color: #060640;
+  color: white;
+  padding: 20px;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .newsletter .btn {
+    width: 100%;
+    position: static;
+  }
+
+  .newsletter-img-position,
+  .newsletter-img-position-2 {
+    display: none;
+  }
+
+  .navbar-brand img {
+    max-width: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  h2, h3, h4 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .btn, .register-button {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .footer-end,
+  footer,
+  .newsletter {
+    width: 100%;
+  }
+}
